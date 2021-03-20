@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
+    <body>
+        <form action="saque.php"    method="POST"  >
+            
+            
+<div id="style_geral">
+
+
+<label>Escolha seu Banco</label>
+<select name="opçoes_banco" required >
+    <option>
+         Santander
+    </option>
+    <option>
+        Bradesco
+    </option>
+    <option>
+        HSBC
+    </option>
+    <option>
+        Banco do Brasil
+    </option>
+    <option>
+        Itaú
+    </option>
+</select> <br> <br>
+
+<label>Informe a sua agência</label> 
+<input name="agencia" type="text" required>  <br>
+
+
+<br> <label>Informe a sua conta</label> 
+<input name="conta" type="number" required> <br> <br>
+
+
+<label >Informe a sua senha</label> 
+<input name="senha" type="password" required  > <br> <br>
+
+<label>Informe a quantidade de dinheiro a sacar</label> 
+<input name="quantia" type="number" required step="any" > <br> <br>
+
+<button  name="limpar">
+Limpar
+</button>
+
+<button name="sacar">
+Sacar
+</button>
+
+
+</div>
+
+</form>
+
+
+    </body>
+</html>

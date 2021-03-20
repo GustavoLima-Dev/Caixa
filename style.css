@@ -1,0 +1,60 @@
+
+
+
+body{
+    background-image: url(fundo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+
+
+
+div {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: salmon;
+    border-image: initial;
+}
+
+
+#style_geral{
+
+    background-color: #e7af6e;
+    border-style: outset;
+    border-color: rgb(255, 217, 50);
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+
+
+button{
+    background-color: rgb(10, 86, 173);
+    color: snow;
+width: 140px;
+border-radius: 13%;
+
+}
